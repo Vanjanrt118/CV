@@ -1,0 +1,108 @@
+
+.header{
+    background-color: rgb(59, 58, 58);
+    height: 300px;
+    font-size: 18px;
+
+}
+.header div{
+    color:rgb(255, 255, 255);
+    margin-right: 10px;
+
+}
+
+.header div  h5{
+    color:rgb(68, 117, 117)
+}
+.header img{
+    height: 240px;
+    object-fit: cover;
+    width:25%;
+    float:left;
+    margin:10px 20px 10px 10px;
+    text-align: center;
+    border: 7px solid rgb(68, 117, 117) ;  
+    border-image: linear-gradient(to bottom, rgb(68, 117, 117) 0 20%, rgba(0, 0, 0, 0)) 1 round;
+    
+
+}
+.header::after{
+    clear: all;
+}
+.left{
+    background-color:rgb(68, 117, 117) ;
+    color:rgb(255, 255, 255);
+    float:left;
+    width:33%;
+    margin-top:10px;
+    overflow: hidden;
+    position: relative;
+ 
+    
+}
+#backpic{
+opacity: 0.25;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+}
+
+
+
+.headers{
+    margin-top:5px;
+    background-color:rgb(59, 58, 58);
+    text-align: center;
+    position: relative;
+  
+
+}
+.icons {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  td a{
+      text-decoration: none;
+      color: white;
+  }
+  td a:hover{
+      color:rgb(91, 161, 219);
+  }
+  ul{
+      list-style-type: none;
+      margin-left:auto;
+
+  }
+  .main ul{
+      list-style-image: url(rise.png);     
+  }
+  .headers-main{
+
+ text-align: center;
+ background-color:rgb(59, 58, 58);
+width: 33%;
+margin-left:50%;
+margin-top:15px;
+color:rgb(255, 255, 255);   
+  }
+.main-li{
+    font-size: 20px;
+
+color: rgb(59, 58, 58);
+margin-left: 33%;
+margin-top: 10px;
+
+}
+ .main-title{
+   color: rgb(68, 117, 117);
+   font-weight: bold;
+
+ }
+ .main-desc{
+
+    font-size: 18px;
+    margin-left: 5px;
+ }
